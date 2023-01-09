@@ -10,10 +10,10 @@ const users= [
   {username: 'leon', email: 'rleons20@gmail.com', password: '1234'},
 ];
 const todos=[
-  {title: 'tarea1', description: 'asisistir a la clase', userId: 1},
-  {title: 'tarea2', description: 'asisistir a la clase', userId: 1},
-  {title: 'tarea imposible', userId: 2},
-  {title: 'tarea facil', description: 'asisistir a la clase', userId: 3}
+  {tittle: 'tarea1', description: 'asisistir a la clase', userId: 1},
+  {tittle: 'tarea2', description: 'asisistir a la clase', userId: 1},
+  {tittle: 'tarea imposible', userId: 2},
+  {tittle: 'tarea facil', description: 'asisistir a la clase', userId: 3}
 ];
 // const categories=[];
 // const todosCategories=[];

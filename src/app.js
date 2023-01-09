@@ -9,7 +9,7 @@ const Todos = require('./models/todos.model');
 
 // crear instancia de express 
 const app= express();
-
+app.use(express.json())
 const PORT = 8000;
 
 //probando la conexion a la base de datos
@@ -38,7 +38,7 @@ app.get('/users',async (req,res)=> {
     //obtener como resultado todos los usuarios de la base de datos
     const result=await Users.findAll(
       {
-        attributes: ["id","username","email",""]
+        attributes: ["id","username","email"]
       }
     );
     res.status(200).json(result);
